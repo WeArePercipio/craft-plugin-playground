@@ -1,0 +1,37 @@
+/**
+ * Site module for Craft CMS
+ *
+ * Site CSS
+ *
+ * @author    nystudio107
+ * @copyright Copyright (c) 2018 nystudio107
+ * @link      https://nystudio107.com/
+ * @package   SiteModule
+ * @since     1.0.0
+ */
+
+body.login {
+    background-repeat: repeat-x;
+    background-image: url('/img/site/percipio-logo.svg');
+    background-position: bottom;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+#login {
+    background-color: #ffffff;
+    padding: 3rem 4rem 1rem 4rem;
+    border-radius: .5rem;
+    border-color: #E2E8F0;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn.submit {
+    background-color: #1C64F2 !important;
+}
+
+.btn.submit:hover {
+    background-color: #1E429F !important;
+}

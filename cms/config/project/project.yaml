@@ -1,0 +1,121 @@
+dateModified: 1614779946
+email:
+  fromEmail: andrew@nystudio107.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  fastcgi-cache-bust:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  image-optimize:
+    edition: standard
+    enabled: true
+    licenseKey: HYZ5UZV03GNJM5VK9QNV9SEX
+    schemaVersion: 1.0.0
+    settings:
+      allowUpScaledImageVariants: false
+      assetVolumeSubFolders: true
+      autoSharpenScaledImages: true
+      createColorPalette: true
+      createPlaceholderSilhouettes: false
+      imageTransformTypeSettings:
+        __assoc__:
+          -
+            - nystudio107\imageoptimizeimgix\imagetransforms\ImgixImageTransform
+            -
+              __assoc__:
+                -
+                  - domain
+                  - ''
+                -
+                  - apiKey
+                  - ''
+                -
+                  - securityToken
+                  - ''
+          -
+            - nystudio107\imageoptimizesharp\imagetransforms\SharpImageTransform
+            -
+              __assoc__:
+                -
+                  - baseUrl
+                  - $SERVERLESS_SHARP_CLOUDFRONT_URL
+          -
+            - nystudio107\imageoptimizethumbor\imagetransforms\ThumborImageTransform
+            -
+              __assoc__:
+                -
+                  - baseUrl
+                  - ''
+                -
+                  - securityKey
+                  - ''
+                -
+                  - includeBucketPrefix
+                  - ''
+      lowerQualityRetinaImageVariants: false
+      transformClass: nystudio107\imageoptimize\imagetransforms\CraftImageTransform
+  instant-analytics:
+    edition: standard
+    enabled: true
+    licenseKey: M7PU5DVTK7247SS1V3DVBVL3
+    schemaVersion: 1.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  retour:
+    edition: standard
+    enabled: true
+    licenseKey: 4LL2ODYFR0QG87WCCW3XYYFQ
+    schemaVersion: 3.0.9
+  rich-variables:
+    edition: standard
+    enabled: true
+    licenseKey: XCDGZ4TWFI5W87892QH9WX6T
+    schemaVersion: 1.0.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: ZTMAKHNCRNLVSBCTDHIJUPQW
+    schemaVersion: 3.0.9
+  templatecomments:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  transcoder:
+    edition: standard
+    enabled: true
+    licenseKey: MCJR0325X9EMZYDAHCDXHP8R
+    schemaVersion: 1.0.0
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  webperf:
+    edition: standard
+    enabled: true
+    licenseKey: SP5V7EIW3GYBJR4R20D30Q0I
+    schemaVersion: 1.0.1
+system:
+  edition: pro
+  live: true
+  name: Project
+  retryDuration: 60
+  schemaVersion: 3.6.4
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
