@@ -1,6 +1,7 @@
 {
   "name": "percipioglobal/craft-plugin-playground",
   "description": "Percipio.London Craft CMS plugin development environment scaffolding",
+  "version": "1.0.1",
   "keywords": [
     "craft",
     "cms",
